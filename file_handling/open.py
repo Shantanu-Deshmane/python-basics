@@ -1,13 +1,13 @@
-filename="file_handling/demo.txt"
-file= open (filename,'r')
+file= open ("file_handling/demo.txt",'r')
 result=file.read()
+
+print(result)
+
 upper=0
 lower=0
 for  i in result:
-    # print(i.isupper())
     if i.isupper():
-        upper+=1
-        
+        upper=upper+1
     else:
         lower+=1
 print("Uppercase characters= ",upper)    

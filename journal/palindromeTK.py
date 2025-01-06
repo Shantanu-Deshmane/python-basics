@@ -11,7 +11,7 @@ def isPalindrome():
         result_label.config(text="THE NUMBER IS: NOT PALINDROME")
     
 
-root.geometry("500x300")
+root.geometry("500x300")    *9
 heading=tk.Label(root,text="ENTER ANY NUMBER HERE")
 heading.pack(pady=10)
 entry=tk.Entry(root)

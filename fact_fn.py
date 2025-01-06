@@ -4,5 +4,5 @@ def factorial(n):
     else:
         return n*factorial(n-1)
     
-# print("Factorial: ",factorial(5))
+print("Factorial: ",factorial(5))
         
